@@ -1,0 +1,50 @@
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+  </body>
+</html> -->
+
+
+<!-- 
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    
+    <div class="blurred-box">
+      <div class="user-box">
+          <p class="hello-user">
+            Hello <%-name%>!
+          </p>
+          <p>Welcome to Express</p>
+      </div>
+    </div>
+    <footer>
+      <p>Copyright © 2022 ChienChuot</p>
+    </footer>
+  </body>
+</html> -->
+
+
+
+<% include header%>
+    
+    <div class="blurred-box">
+      <div class="user-box">
+          <p class="hello-user">
+            Hello <%= name%>!
+          </p>
+          <p>Welcome to Express</p>
+      </div>
+    </div>
+
+<% include footer%>
